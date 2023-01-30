@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="OpenAI Request">be44bb83c3e06150374ed4c4e401311b</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-27 10:05:53</sys_created_on>
+        <sys_id>4744ffc3c3e06150374ed4c4e40131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of OpenAI Request.SNC External</sys_name>
+        <sys_package display_value="Open AI Demo" source="x_snc_open_ai_demo">6dc2338fc3a06150374ed4c4e4013125</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_4744ffc3c3e06150374ed4c4e40131a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-27 10:05:53</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>
