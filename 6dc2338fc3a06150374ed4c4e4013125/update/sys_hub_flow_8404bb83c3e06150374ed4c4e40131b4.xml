@@ -10,7 +10,7 @@
         <copied_from_name>OpenAI Request</copied_from_name>
         <description/>
         <internal_name>openai_request</internal_name>
-        <label_cache>[{"name":"4ce6a5fd-47a7-4593-b0f9-e8b4a4ad7d26.request","label":"1 - Get Catalog Variables➛request","reference":"","reference_display":"request","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.table_name","label":"5 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.record","label":"5 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71f733fe-1587-4b56-816b-87f12f480d7a.item.text","label":"3➛choices_object➛text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.table_name","label":"4 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.record","label":"4 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71f733fe-1587-4b56-816b-87f12f480d7a.item","label":"3 - For Each➛choices_object","reference_display":"choices_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.object.choices","label":"2 - Text Completion V2➛Object➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.table_name","label":"3 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.__dont_treat_as_error__","label":"3 - Text Completion V2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"70b36e1c-a9de-47e7-8fd2-de07b0bdf39d"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.__action_status__","label":"3 - Text Completion V2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"00630d3a-c932-4f2f-804f-f12e7d361722"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.object","label":"3 - Text Completion V2➛Object","reference_display":"Object","type":"object","base_type":"object","attributes":{"sourceId":"757c1d36-f967-460a-a244-0be6e4f3590a","uiTypeLabel":"Object","co_type_name":"FD192fbd32f360ad10a136e81e2357390c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f6b04ef5-51db-4445-a50d-cfbf3af982fa","uiType":"object","uiUniqueId":"caa2d8fc-a0f2-4a4c-b349-0fcfa4d21d56"}},{"name":"ed42c506-ae31-4c15-bba7-5aafc4446db1.request","label":"1 - Get Catalog Variables➛request","reference":"","reference_display":"request","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.record","label":"6 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.table_name","label":"6 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.object","label":"2 - OpenAI Text Completion➛Object","reference_display":"Object","type":"object","base_type":"object","attributes":{"sourceId":"757c1d36-f967-460a-a244-0be6e4f3590a","uiTypeLabel":"Object","co_type_name":"FD2934f7c35ce06150d36b834972005413","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f6b04ef5-51db-4445-a50d-cfbf3af982fa","uiType":"object","uiUniqueId":"caa2d8fc-a0f2-4a4c-b349-0fcfa4d21d56"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.__action_status__","label":"2 - OpenAI Text Completion➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"00630d3a-c932-4f2f-804f-f12e7d361722"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.__dont_treat_as_error__","label":"2 - OpenAI Text Completion➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"70b36e1c-a9de-47e7-8fd2-de07b0bdf39d"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.object.choices","label":"2➛Object➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"4ce6a5fd-47a7-4593-b0f9-e8b4a4ad7d26.request","label":"1 - Get Catalog Variables➛request","reference":"","reference_display":"request","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.table_name","label":"5 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.record","label":"5 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71f733fe-1587-4b56-816b-87f12f480d7a.item.text","label":"3➛choices_object➛text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.table_name","label":"4 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.record","label":"4 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71f733fe-1587-4b56-816b-87f12f480d7a.item","label":"3 - For Each➛choices_object","reference_display":"choices_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.object.choices","label":"2 - Text Completion V2➛Object➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.table_name","label":"3 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.__dont_treat_as_error__","label":"3 - Text Completion V2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"70b36e1c-a9de-47e7-8fd2-de07b0bdf39d"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.__action_status__","label":"3 - Text Completion V2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"00630d3a-c932-4f2f-804f-f12e7d361722"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.object","label":"3 - Text Completion V2➛Object","reference_display":"Object","type":"object","base_type":"object","attributes":{"sourceId":"757c1d36-f967-460a-a244-0be6e4f3590a","uiTypeLabel":"Object","co_type_name":"FD192fbd32f360ad10a136e81e2357390c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f6b04ef5-51db-4445-a50d-cfbf3af982fa","uiType":"object","uiUniqueId":"caa2d8fc-a0f2-4a4c-b349-0fcfa4d21d56"}},{"name":"ed42c506-ae31-4c15-bba7-5aafc4446db1.request","label":"1 - Get Catalog Variables➛request","reference":"","reference_display":"request","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.record","label":"6 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.table_name","label":"6 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.object","label":"2 - OpenAI Text Completion➛Object","reference_display":"Object","type":"object","base_type":"object","attributes":{"sourceId":"757c1d36-f967-460a-a244-0be6e4f3590a","uiTypeLabel":"Object","co_type_name":"FD2934f7c35ce06150d36b834972005413","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f6b04ef5-51db-4445-a50d-cfbf3af982fa","uiType":"object","uiUniqueId":"caa2d8fc-a0f2-4a4c-b349-0fcfa4d21d56"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.__action_status__","label":"2 - OpenAI Text Completion➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"00630d3a-c932-4f2f-804f-f12e7d361722"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.__dont_treat_as_error__","label":"2 - OpenAI Text Completion➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"70b36e1c-a9de-47e7-8fd2-de07b0bdf39d"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.object.choices","label":"2➛Object➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}}]</label_cache>
         <master_snapshot>6426730bc3e06150374ed4c4e4013106</master_snapshot>
         <name>OpenAI Request</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8404bb83c3e06150374ed4c4e40131b4</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>OpenAI Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Open AI Demo" source="x_snc_open_ai_demo">6dc2338fc3a06150374ed4c4e4013125</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_update_name>sys_hub_flow_8404bb83c3e06150374ed4c4e40131b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:22</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:08</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=8404bb83c3e06150374ed4c4e40131b4"/>
@@ -70,10 +70,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:04:36</sys_created_on>
         <sys_id>5804fb83c3e06150374ed4c4e4013101</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:22</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:08</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -158,14 +158,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:04:35</sys_created_on>
         <sys_id>8004bb83c3e06150374ed4c4e40131c3</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:22</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -241,14 +241,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:04:35</sys_created_on>
         <sys_id>8804bb83c3e06150374ed4c4e40131be</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:22</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -278,10 +278,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:04:36</sys_created_on>
         <sys_id>1004bb83c3e06150374ed4c4e40131fa</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:41</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 16:14:08</sys_updated_on>
         <ui_id>97a6d663-2617-4d6f-b773-a10e6759e590</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1004bb83c3e06150374ed4c4e40131fa"/>
@@ -354,10 +354,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:04:36</sys_created_on>
         <sys_id>1804bb83c3e06150374ed4c4e40131f3</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:41</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 16:14:08</sys_updated_on>
         <ui_id>146d6a15-a08b-479a-9d14-fa64773a2435</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1804bb83c3e06150374ed4c4e40131f3"/>
@@ -443,10 +443,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:13:53</sys_created_on>
         <sys_id>1c26330bc3e06150374ed4c4e4013192</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:41</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 16:14:08</sys_updated_on>
         <ui_id>18912bc1-4748-4b4f-920f-a09b1da98bbf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1c26330bc3e06150374ed4c4e4013192"/>
@@ -479,10 +479,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:20:40</sys_created_on>
         <sys_id>23a7bf0fc3e06150374ed4c4e401311d</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:41</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 16:14:08</sys_updated_on>
         <ui_id>4ce6a5fd-47a7-4593-b0f9-e8b4a4ad7d26</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=23a7bf0fc3e06150374ed4c4e401311d"/>
@@ -567,10 +567,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:04:36</sys_created_on>
         <sys_id>5804bb83c3e06150374ed4c4e40131ff</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:41</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 16:14:08</sys_updated_on>
         <ui_id>815a77e7-0f0a-4aec-be7f-4edca994b032</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5804bb83c3e06150374ed4c4e40131ff"/>
@@ -665,10 +665,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:04:35</sys_created_on>
         <sys_id>4004bb83c3e06150374ed4c4e40131d8</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:22</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:08</sys_updated_on>
         <ui_id>71f733fe-1587-4b56-816b-87f12f480d7a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -746,17 +746,17 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"cd26b30bc3e06150374ed4c4e401311f","name":"plan","plan_signature":null}}</plan>
         <plan_id>8404bb83c3e06150374ed4c4e40131b4</plan_id>
-        <snapshot>de98bbcfc3e06150374ed4c4e401316d</snapshot>
+        <snapshot>6426730bc3e06150374ed4c4e4013106</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:13:57</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cd26b30bc3e06150374ed4c4e401311f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:22</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:07</sys_updated_on>
         <trigger display_value="">c526b30bc3e06150374ed4c4e401311f</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8404bb83c3e06150374ed4c4e40131b4"/>
@@ -771,7 +771,7 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <copied_from_name/>
         <description/>
         <internal_name>openai_request</internal_name>
-        <label_cache>[{"name":"4ce6a5fd-47a7-4593-b0f9-e8b4a4ad7d26.request","label":"1 - Get Catalog Variables➛request","reference":"","reference_display":"request","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.table_name","label":"5 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.record","label":"5 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71f733fe-1587-4b56-816b-87f12f480d7a.item.text","label":"3➛choices_object➛text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.table_name","label":"4 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.record","label":"4 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71f733fe-1587-4b56-816b-87f12f480d7a.item","label":"3 - For Each➛choices_object","reference_display":"choices_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.object.choices","label":"2 - Text Completion V2➛Object➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.table_name","label":"3 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.__dont_treat_as_error__","label":"3 - Text Completion V2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"70b36e1c-a9de-47e7-8fd2-de07b0bdf39d"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.__action_status__","label":"3 - Text Completion V2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"00630d3a-c932-4f2f-804f-f12e7d361722"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.object","label":"3 - Text Completion V2➛Object","reference_display":"Object","type":"object","base_type":"object","attributes":{"sourceId":"757c1d36-f967-460a-a244-0be6e4f3590a","uiTypeLabel":"Object","co_type_name":"FD192fbd32f360ad10a136e81e2357390c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f6b04ef5-51db-4445-a50d-cfbf3af982fa","uiType":"object","uiUniqueId":"caa2d8fc-a0f2-4a4c-b349-0fcfa4d21d56"}},{"name":"ed42c506-ae31-4c15-bba7-5aafc4446db1.request","label":"1 - Get Catalog Variables➛request","reference":"","reference_display":"request","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.record","label":"6 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.table_name","label":"6 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.object","label":"2 - OpenAI Text Completion➛Object","reference_display":"Object","type":"object","base_type":"object","attributes":{"sourceId":"757c1d36-f967-460a-a244-0be6e4f3590a","uiTypeLabel":"Object","co_type_name":"FD2934f7c35ce06150d36b834972005413","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f6b04ef5-51db-4445-a50d-cfbf3af982fa","uiType":"object","uiUniqueId":"caa2d8fc-a0f2-4a4c-b349-0fcfa4d21d56"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.__action_status__","label":"2 - OpenAI Text Completion➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"00630d3a-c932-4f2f-804f-f12e7d361722"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.__dont_treat_as_error__","label":"2 - OpenAI Text Completion➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"70b36e1c-a9de-47e7-8fd2-de07b0bdf39d"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.object.choices","label":"2➛Object➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"4ce6a5fd-47a7-4593-b0f9-e8b4a4ad7d26.request","label":"1 - Get Catalog Variables➛request","reference":"","reference_display":"request","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.table_name","label":"5 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"97a6d663-2617-4d6f-b773-a10e6759e590.record","label":"5 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71f733fe-1587-4b56-816b-87f12f480d7a.item.text","label":"3➛choices_object➛text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.table_name","label":"4 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"146d6a15-a08b-479a-9d14-fa64773a2435.record","label":"4 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"71f733fe-1587-4b56-816b-87f12f480d7a.item","label":"3 - For Each➛choices_object","reference_display":"choices_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.object.choices","label":"2 - Text Completion V2➛Object➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.table_name","label":"3 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e32e4adf-be4a-45b8-8e24-290454de3f5e.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.__dont_treat_as_error__","label":"3 - Text Completion V2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"70b36e1c-a9de-47e7-8fd2-de07b0bdf39d"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.__action_status__","label":"3 - Text Completion V2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"00630d3a-c932-4f2f-804f-f12e7d361722"}},{"name":"3118c12e-83f1-4365-a7c5-fa8daf99c496.object","label":"3 - Text Completion V2➛Object","reference_display":"Object","type":"object","base_type":"object","attributes":{"sourceId":"757c1d36-f967-460a-a244-0be6e4f3590a","uiTypeLabel":"Object","co_type_name":"FD192fbd32f360ad10a136e81e2357390c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f6b04ef5-51db-4445-a50d-cfbf3af982fa","uiType":"object","uiUniqueId":"caa2d8fc-a0f2-4a4c-b349-0fcfa4d21d56"}},{"name":"ed42c506-ae31-4c15-bba7-5aafc4446db1.request","label":"1 - Get Catalog Variables➛request","reference":"","reference_display":"request","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.record","label":"6 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.table_name","label":"6 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"815a77e7-0f0a-4aec-be7f-4edca994b032.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.object","label":"2 - OpenAI Text Completion➛Object","reference_display":"Object","type":"object","base_type":"object","attributes":{"sourceId":"757c1d36-f967-460a-a244-0be6e4f3590a","uiTypeLabel":"Object","co_type_name":"FD2934f7c35ce06150d36b834972005413","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"f6b04ef5-51db-4445-a50d-cfbf3af982fa","uiType":"object","uiUniqueId":"caa2d8fc-a0f2-4a4c-b349-0fcfa4d21d56"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.__action_status__","label":"2 - OpenAI Text Completion➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"00630d3a-c932-4f2f-804f-f12e7d361722"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.__dont_treat_as_error__","label":"2 - OpenAI Text Completion➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"70b36e1c-a9de-47e7-8fd2-de07b0bdf39d"}},{"name":"18912bc1-4748-4b4f-920f-a09b1da98bbf.object.choices","label":"2➛Object➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}}]</label_cache>
         <master>true</master>
         <name>OpenAI Request</name>
         <natlang/>
@@ -788,7 +788,7 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6426730bc3e06150374ed4c4e4013106</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -796,7 +796,7 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:20</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:05</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=6426730bc3e06150374ed4c4e4013106"/>
@@ -811,10 +811,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:13:56</sys_created_on>
         <sys_id>3026730bc3e06150374ed4c4e4013186</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:22</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:07</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -899,14 +899,14 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:13:54</sys_created_on>
         <sys_id>a426730bc3e06150374ed4c4e4013115</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:20</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -982,14 +982,14 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:13:55</sys_created_on>
         <sys_id>e826730bc3e06150374ed4c4e4013142</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:20</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1019,10 +1019,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:13:55</sys_created_on>
         <sys_id>3026730bc3e06150374ed4c4e4013171</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:20</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:05</sys_updated_on>
         <ui_id>18912bc1-4748-4b4f-920f-a09b1da98bbf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3026730bc3e06150374ed4c4e4013171"/>
@@ -1055,10 +1055,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:13:56</sys_created_on>
         <sys_id>3026730bc3e06150374ed4c4e4013184</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:20</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:05</sys_updated_on>
         <ui_id>815a77e7-0f0a-4aec-be7f-4edca994b032</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3026730bc3e06150374ed4c4e4013184"/>
@@ -1143,10 +1143,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:20:42</sys_created_on>
         <sys_id>40b7ff0fc3e06150374ed4c4e4013152</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:20</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:05</sys_updated_on>
         <ui_id>4ce6a5fd-47a7-4593-b0f9-e8b4a4ad7d26</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=40b7ff0fc3e06150374ed4c4e4013152"/>
@@ -1231,10 +1231,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:13:56</sys_created_on>
         <sys_id>f426730bc3e06150374ed4c4e4013178</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:20</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:05</sys_updated_on>
         <ui_id>146d6a15-a08b-479a-9d14-fa64773a2435</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f426730bc3e06150374ed4c4e4013178"/>
@@ -1320,10 +1320,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:13:56</sys_created_on>
         <sys_id>f426730bc3e06150374ed4c4e401317e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:20</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:05</sys_updated_on>
         <ui_id>97a6d663-2617-4d6f-b773-a10e6759e590</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f426730bc3e06150374ed4c4e401317e"/>
@@ -1406,10 +1406,10 @@ Open AI Response: {{71f733fe-1587-4b56-816b-87f12f480d7a.item.text}}</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-27 10:13:55</sys_created_on>
         <sys_id>bc26730bc3e06150374ed4c4e401314e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Open AI Demo">6dc2338fc3a06150374ed4c4e4013125</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-27 10:24:20</sys_updated_on>
+        <sys_updated_on>2023-02-06 16:14:05</sys_updated_on>
         <ui_id>71f733fe-1587-4b56-816b-87f12f480d7a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
